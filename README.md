@@ -1,3 +1,4 @@
+> 说明:这个库主要来自DPS310官方驱动库,与SPL06的主要区别是外部温度传感器的设置,API接口于DPS310完全相同,类名改为**Spl06**,以下是官方的README
 # DPS368 Barometric Pressure Sensor 
 
 [![Build Status](https://travis-ci.org/Infineon/DPS368-Library-Arduino.svg?branch=dps368)](https://travis-ci.org/Infineon/DPS368-Library-Arduino)
