@@ -502,6 +502,7 @@ int16_t DpsClass::configTemp(uint8_t tempMr, uint8_t tempOsr)
 	}
 	m_tempMr = tempMr;
 	m_tempOsr = tempOsr;
+	return ret;
 }
 
 int16_t DpsClass::configPressure(uint8_t prsMr, uint8_t prsOsr)
@@ -518,6 +519,7 @@ int16_t DpsClass::configPressure(uint8_t prsMr, uint8_t prsOsr)
 	}
 	m_prsMr = prsMr;
 	m_prsOsr = prsOsr;
+	return ret;
 }
 
 int16_t DpsClass::enableFIFO()
